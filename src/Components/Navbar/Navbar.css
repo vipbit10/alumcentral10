@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar {
+    background-color: #f4f4f4; /* Light gray background color for the box */
+    border: 2px solid #ddd; /* Border color */
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    
+  }
+  
+  .college-icon {
+    width: 80px; /* Adjust the width of the icon as needed */
+    height: auto;
+    margin-right: 20px; /* Add margin to separate the icon from the college name */
+  }
+
+  .brand-line {
+    width: 20%; /* Adjust the width of the line as needed */
+    height: 1px;
+    background-color: #fff;
+    margin-top: 5px; /* Add margin between college name and line */
+  }
+  
+  
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-links a {
+    color: #030303;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+ 

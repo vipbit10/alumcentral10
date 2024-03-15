@@ -1,0 +1,44 @@
+.FooterContainer{
+    padding-left:100px;
+    padding-right:100px;
+    display:flex;
+    background-color:rgb(247, 246, 238);
+    justify-content: space-between;
+    color: #333; /* Adjust the color as needed */
+    background-color: #f4f4f4; /* Light gray background color for the box */
+    border: 2px solid #0b0404; /* Border color */
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.FooterLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.FooterRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.FooterMiddle{
+    display:flex;
+    gap:18px;
+    align-items:center;
+    justify-content: center;
+
+}
+
+.FooterMiddleRight{
+    margin:10px;
+}
+
+.FooterCopyRight{
+    color: azure;
+}

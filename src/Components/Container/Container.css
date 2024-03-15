@@ -1,0 +1,61 @@
+.image-section {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    
+   
+  }
+.jjj{
+
+  border-color: black;
+    border-width: 2px;
+}
+
+
+  .image-section img {
+    width: 100%;
+    height: 80vh;
+   
+  }
+
+  .center-image {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+ }
+  
+  .square-image 
+  {
+    width: 70px; /* Adjust the width of the square image */
+    height: 70px; /* Adjust the height of the square image */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 8px;
+    margin-bottom: 150px; 
+  }
+  
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #f5f1f1;
+  }
+  
+  .welcome-heading {
+    font-family: 'Your Beautiful Font', sans-serif; /* Replace with the actual font name */
+    font-size: 4em;
+    margin-bottom: 10px;
+  }
+  
+  .overlay p {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .overlay i {
+    font-size: 3em;
+  }
